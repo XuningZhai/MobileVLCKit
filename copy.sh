@@ -1,0 +1,23 @@
+#!/bin/bash
+cp ./live555.cpp ../vlc/modules/access/
+cp ./stream_output.c ../vlc/src/stream_output/
+cp ./libmp4mux.c ../vlc/modules/mux/mp4/
+cp ./access_output.am ../vlc/modules/access_output/Makefile.am
+cp ./mux.am ../vlc/modules/mux/Makefile.am
+cp ./packetizer.am ../vlc/modules/packetizer/Makefile.am
+cp ./stream_out.am ../vlc/modules/stream_out/Makefile.am
+cp ./VLCMedia.m ../../Sources/
+cp ./VLCMediaPlayer.m ../../Sources/
+cp ./VLCMediaPlayer.h ../../Headers/Public/
+cp ./libvlc_events.h ../vlc/include/vlc/
+cp ./libvlc_media_player.h ../vlc/include/vlc/
+cp ./event.c ../vlc/lib/
+cp ./libvlc.sym ../vlc/lib/
+cp ./media_player.c ../vlc/lib/
+cp ./record.c ../vlc/modules/stream_out/
+cp ./var.c ../vlc/src/input/
+cd ./live.2016.10.21.tar.gz ../vlc/contrib/tarballs/
+cd ./rules.mak ../vlc/contrib/src/live555/
+cd ./SHA512SUMS ../vlc/contrib/src/live555/
+#cp ./es_out.c ../vlc/src/input/
+cp ./config.h.in ../vlc
